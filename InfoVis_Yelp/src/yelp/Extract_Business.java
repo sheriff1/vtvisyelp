@@ -21,7 +21,7 @@ public class Extract_Business {
 				/*Collection<UserProf> user_profs =  
 					      mapper.readValue(new File("/Users/sheriff/Documents/eclipse-Java EE/workspace/InfoVis_Yelp/jsons/user_profiles.json"),  
 					        new TypeReference<Collection<UserProf>>() {});*/
-				List<BusinessProf> biz_profs = mapper.readValue(new File("/Users/sheriff/Documents/eclipse-Java EE/workspace/InfoVis_Yelp/jsons/business_profiles.json"), 
+				List<BusinessProf> biz_profs = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/bp_nobrackers.json"), 
 						new TypeReference<List<BusinessProf>>(){});
 				for(BusinessProf bp: biz_profs)
 				{
