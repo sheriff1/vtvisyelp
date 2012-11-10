@@ -2,11 +2,17 @@ vtvisyelp
 =========
 -Parse objects to get the following information - http://wiki.fasterxml.com/JacksonInFiveMinutes
 
-    S---> All of the user profile objects match up with a review object                             [ ]           
-    S---> Extract all Virginia Tech objects to separate JSON files                                  [ ]
+    S---> All of the user profile objects match up with a review object                             [X]           
+    S---> Extract all Virginia Tech objects to separate JSON files                                  [X]
 		    -expecting 770 review objects, <=770 user profile objects, and 91 business profile objects
-		
-	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [ ]
+		OUTPUT FROM ID_Match.java: Number of VT objects:
+						Business profiles: 143
+						User profiles: 320
+						User reviews: 992
+
+	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [*]
+		-see above			
+
 	D---> How many categories of restaurants are there near Virginia Tech                           [ ]
  	D---> How many restaurants are within each these categories                                     [ ]
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
