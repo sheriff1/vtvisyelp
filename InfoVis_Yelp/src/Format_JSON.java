@@ -12,35 +12,21 @@ public class Format_JSON {
 	{
 		try 
 		{
-			String more = "";
-			BufferedReader dammit = new BufferedReader(new FileReader("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/business_profiles.json"));
-			PrintWriter out = new PrintWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/bp_nobrackers.json")); 
-			while(dammit.ready())
-			{
-				more = dammit.readLine();
-				if(more.contains("[") || more.contains("]"))
-				{
-					more = more.replace("[", "");
-					more = more.replace("]", "");
-					out.println(more);
-				}
-			}
-			out.flush();
-			out.close();
-			dammit.close();
-			/*
+			
 		    String crap = "";
-			BufferedReader dammit = new BufferedReader(new FileReader("/Users/sheriff/Documents/eclipse-Java EE/workspace/InfoVis_Yelp/jsons/user_reviews.json"));
-			PrintWriter out = new PrintWriter(new FileWriter("/Users/sheriff/Documents/eclipse-Java EE/workspace/InfoVis_Yelp/jsons/user_reviews_comma.json")); 
+			BufferedReader dammit = new BufferedReader(new FileReader("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/VT_business_profiles.json"));
+			PrintWriter out = new PrintWriter(new FileWriter("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/VT_business_profiles_comma.json")); 
+			out.print("[");
 			while(dammit.ready())
 			{
 				crap = dammit.readLine() + ",";
 				out.println(crap);
 			}
+			out.print("]");
 			out.flush();
 			out.close();
 			dammit.close();
-			*/
+		
 		} 
 		catch (FileNotFoundException e) 
 		{
