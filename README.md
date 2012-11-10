@@ -17,7 +17,8 @@ vtvisyelp
 		this was done in Extract_Categories.java, the problem now is to identify 
 		which categories we need to consider for our visualization.
 		see list_categories.txt to see the list. 
- 	D---> How many restaurants are within each these categories     					[ ]
+
+ 	D---> How many restaurants are within each these categories     						[ ]
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
 			-near Virginia Tech
 			-for each category
