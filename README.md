@@ -31,7 +31,8 @@ vtvisyelp
     -Incorporate submit button into menu interface (figure 1) - D                                       [ ]
 
     -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
-  
+  	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
+
     -layout the visualization and menu interface                                                        [ ]
 
     -load and use JSON into D3 and connect it somehow to our layout                                     [ ]
