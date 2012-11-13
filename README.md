@@ -36,3 +36,16 @@ vtvisyelp
     -layout the visualization and menu interface                                                        [ ]
 
     -load and use JSON into D3 and connect it somehow to our layout                                     [ ]
+
+
+Suggestions for layout enhancement after Project 2 presentation (11/13/2012):
+- Mesh the UI with the visualization.
+- Incorporate Olympic-style podium into rows ---> Color the rows gold, silver, bronze as opposed to having podium
+- Do not "emphasize" top 5 restaurants with separate click-buttons, but emphasize them in the drop down menu.
+- In Figure 2, incorporate drop-down menu into the "Category X" part, so then we don't need it in the initial UI/part of meshing process
+- ***Show all types of ratings in visualization, like bar graphs for all of the "What's important to you" metrics
+	and then allow user to create "What's Important to you" rating based on those (still use checkbox, seems easiest for now)
+
+
+
+
