@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
   <!-- Header -->
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <title>Yelp</title>
-    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
-	<link href="css/yelp.css" rel="stylesheet" type="text/css" />
-  </head>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<title>Yelp</title>    
+<link rel="stylesheet" href="css/bootstrap.css" />
+</head>
   <!-- End of Header -->
 
-<body><!-- Body -->
-      
-<div class="title"> Yelp!++ </div>
-
-<div class="instructions">
-<b>Instructions:</b>
-<br>
-This page provides you with the ability search for a restaurant based on the category of food you are interested in. We
+<body>  <!-- Body -->
+<div class="hero-unit">
+  <h1>Yelp! Ratings++</h1>
+  <p>This page provides you with the ability search for a restaurant based on the category of food you are interested in. We
 provide multiple ratings based on different metrics Yelp! Provides in order to allow you find the best restaurant reliably. 
+ </p>
 </div>
-<br>
 
-<div class="checkboxes">
-<h2>What's Important to you?:</h2> 
+<div class="container">
+
+<div class="span5 well" style="width: 310px">
+<ul class="nav nav-list" style="border: 1px solid #ddd; border-radius: 5px; padding: 0">
+<li class="nav-header" style="margin-left: -5px; margin-top: 5px;">
+What's important to you?
+<li style="padding: 20px 10px; margin: 0; border-bottom: 1px solid #eee">
 <input type="checkbox" name="funnyreader" value="funnyreader">  Funny (Reader's voting) <br><br>
 <input type="checkbox" name="coolreader" value="coolreader">   Cool (Reader's voting) <br><br>
 <input type="checkbox" name="usefullreader" value="usefullreader">  Useful (Reader's voting) <br><br>
@@ -30,35 +30,43 @@ provide multiple ratings based on different metrics Yelp! Provides in order to a
 <input type="checkbox" name="coolreviewer" value="coolreviewer">  Cool (Reviewer's voting) <br><br>
 <input type="checkbox" name="usefulreviewer" value="usefulreviewer">   Useful (Reviewer's voting) <br><br>
 <input type="checkbox" name="recent" value="recent">  Recent (Past N days) <br><br>
-<input type="checkbox" name="reviewNumber" value="reviewNumber">   User Review Quantity
+<input type="checkbox" name="reviewNumber" value="reviewNumber">   User Review Quantity <br><br>
+</li>
+</ul>
 </div>
 
-<div class="dropdown">      
-<h2> All Categories: </h2>
+<div class="row well" style="float: right;">
+<center>
+<h5><u>Categories</u></h5>
 <select name="dropmenu">
-<option value="1"> Chinese Food</option>
-<option value="2"> Amercian Food</option>
-<option value="3"> Mexican Food</option>
-<option value="4"> Pizza</option>	    
-<option value="5"> Burger</option>
-<option value="6"> Bar</option>
-<option value="7"> Buffets</option>
-<option value="8"> French Food</option>
-<option value="9"> Greek Food</option>
-<option value="10"> Fast Food</option>
+    <option value="1"> Chinese Food</option>
+    <option value="2"> Amercian Food</option>
+    <option value="3"> Mexican Food</option>
+    <option value="4"> Pizza</option>	    
+    <option value="5"> Burger</option>
+    <option value="6"> Bar</option>
+    <option value="7"> Buffets</option>
+    <option value="8"> French Food</option>
+    <option value="9"> Greek Food</option>
+    <option value="10"> Fast Food</option>    
 </select>
+</center>
+
+<center><h5><u>Top 5 categories for this school</u></h5>
+
+<a href="#" class="btn">American</a>
+<a href="#" class="btn">Chinese</a>
+<a href="#" class="btn">Mexican</a>
+<a href="#" class="btn">French</a>
+<a href="#" class="btn">Greek</a>
+</center>
+
 </div>
 
-<br>
-<div class="btn_field">    
-<h2>Top 5 Categories:</h2>  
-<button type="button" class="btn" onclick="alert('Cat1')">American</button>
-<button type="button" class="btn" onclick="alert('Cat2')">Chinese</button>
-<button type="button" class="btn" onclick="alert('Cat3')">Mexican</button>
-<button type="button" class="btn" onclick="alert('Cat4')">French</button>            
-<button type="button" class="btn" onclick="alert('Cat5')">Greek</button>
-</div>
+<center>
+<a href="#" class="btn" style="margin: 50% 0px 0px 0px;">Submit</a>
+</center>
 
-</body> <!-- End of Body -->
-
+</div> <!-- End of "container" -->
+</body>  <!-- End of Body -->
 </html>
