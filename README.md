@@ -10,15 +10,17 @@ vtvisyelp
 						User profiles: 320
 						User reviews: 992
 
-	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [*]
+	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [X]
 		-see above			
 
-	D---> How many categories of restaurants are there near Virginia Tech                           [*]
+	D---> How many categories of restaurants are there near Virginia Tech                           [X]
 		this was done in Extract_Categories.java, the problem now is to identify 
 		which categories we need to consider for our visualization.
-		see list_categories_VT.txt to see the list. 
+		see list_categories_VT_Food_only.txt to see the list. 
 
- 	D---> How many restaurants are within each these categories     								[ ]
+ 	D---> How many restaurants are within each these categories										[ ]
+		see list_categories_VT_Food_only.txt for the list of categories we care to display
+
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
 			-near Virginia Tech
 			-for each category
@@ -26,9 +28,9 @@ vtvisyelp
 			-think of date boundary - for whole area? for a category only? for a restaurant only?
 	*** gauge the amount of time it took to parse each of these things
 
-[above done by 11-13-12???]
+[above done by 11-16-12???]
 
-    -Incorporate submit button into menu interface (figure 1) - D                                       [ ]
+    -Incorporate submit button into menu interface (figure 1) - D                                       [X]
 
     -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
   	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
