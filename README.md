@@ -13,7 +13,7 @@ vtvisyelp
 	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [X]
 		-see above			
 
-	D---> How many categories of restaurants are there near Virginia Tech                           [X]
+	S---> How many categories of restaurants are there near Virginia Tech                           [X]
 		this was done in Extract_Categories.java, the problem now is to identify 
 		which categories we need to consider for our visualization.
 		see list_categories_VT_Food_only.txt to see the list. 
@@ -30,7 +30,7 @@ vtvisyelp
 
 [above done by 11-16-12???]
 
-    -Incorporate submit button into menu interface (figure 1) - D                                       [X]
+    -Incorporate submit button into menu interface (figure 1) - S                                       [X]
 
     -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
   	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
