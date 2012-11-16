@@ -22,7 +22,7 @@ public class Quantity_categories {
 			ObjectMapper mapper = new ObjectMapper();
 			List<Business_Prof> biz_profs = mapper.readValue(new File("C:\\Users\\Smile\\Documents\\GitHub\\vtvisyelp\\InfoVis_Yelp\\VT_jsons\\VT_business_profiles.json"), 
 					new TypeReference<List<Business_Prof>>(){});
-			
+			Integer temp = 0;
 			for(String arr:arrCat){
 				for(Business_Prof bp: biz_profs){
 					if(bp.getSchools().contains("Virginia Tech")){
@@ -39,8 +39,12 @@ public class Quantity_categories {
 				
 			}
 			
+			
 			for(String arr:arrCatMap.keySet()){
-				System.out.println(arr+":"+arrCatMap.get(arr));
+				temp = arrCatMap.get(arr);
+				if(temp >= 3){
+					System.out.println(arr+":"+temp);
+				}
 			}
 			
 		} 
