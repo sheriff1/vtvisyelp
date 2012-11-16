@@ -35,6 +35,8 @@ vtvisyelp
     -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
   	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
 
+    -remove non-restaurants from business profiles JSON file											[ ]
+
     -layout the visualization and menu interface                                                        [ ]
 
     -load and use JSON into D3 and connect it somehow to our layout                                     [ ]
