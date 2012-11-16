@@ -1,14 +1,14 @@
 	package yelp;
 	import java.io.File;
 	import java.io.IOException;
-import java.util.ArrayList;
+	import java.util.ArrayList;
 	import java.util.List;
 
 	import com.fasterxml.jackson.core.JsonGenerationException;
 	import com.fasterxml.jackson.core.JsonParseException;
 	import com.fasterxml.jackson.core.type.TypeReference;
 	import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+	import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 public class Extract_Categories {
@@ -23,7 +23,7 @@ public class Extract_Categories {
 				/*Collection<UserProf> user_profs =  
 					      mapper.readValue(new File("/Users/sheriff/Documents/eclipse-Java EE/workspace/InfoVis_Yelp/jsons/user_profiles.json"),  
 					        new TypeReference<Collection<UserProf>>() {});*/
-				List<Business_Prof> biz_profs = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/jsons/business_profiles.json"), 
+				List<Business_Prof> biz_profs = mapper.readValue(new File("C:\\Users\\Smile\\Documents\\GitHub\\vtvisyelp\\InfoVis_Yelp\\VT_jsons\\VT_business_profiles.json"), 
 						new TypeReference<List<Business_Prof>>(){});
 
 				for(Business_Prof bp: biz_profs)

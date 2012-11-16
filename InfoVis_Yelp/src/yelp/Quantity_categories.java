@@ -44,7 +44,6 @@ public class Quantity_categories {
 				System.out.println(arr+":"+arrCatMap.get(arr));
 			}
 			
-			
 		} 
 		catch (Exception e) 
 		{

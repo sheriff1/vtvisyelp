@@ -2,14 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-databind-2.1.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-databind-2.1.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-databind-2.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-core-2.1.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-core-2.1.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-core-2.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-annotations-2.1.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-annotations-2.1.0-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/sheriff/Downloads/jackson-annotations-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/InfoVis_Yelp/webapp/WEB-INF/lib/jackson-all-1.9.11.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/InfoVis_Yelp/webapp/WEB-INF/lib/jackson-annotations-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/InfoVis_Yelp/webapp/WEB-INF/lib/jackson-core-2.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/InfoVis_Yelp/webapp/WEB-INF/lib/jackson-databind-2.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
