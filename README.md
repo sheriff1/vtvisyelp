@@ -18,7 +18,7 @@ vtvisyelp
 		which categories we need to consider for our visualization.
 		see list_categories_VT_Food_only.txt to see the list. 
 
- 	D---> How many restaurants are within each these categories										[ ]
+ 	D---> How many restaurants are within each these categories										[X]
 		see list_categories_VT_Food_only.txt for the list of categories we care to display
 
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
