@@ -39,6 +39,7 @@ public class Quantity_categories {
 				
 			}
 			
+			
 			for(String arr:arrCatMap.keySet()){
 				System.out.println(arr+":"+arrCatMap.get(arr));
 			}
