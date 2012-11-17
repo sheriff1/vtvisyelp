@@ -75,7 +75,7 @@ public class Algorithms
 		System.out.println("Useful User Rating:\t" + UUR + "/" + totalV_UUR + " = " +  (UUR/totalV_UUR));
 		System.out.println("Funny User Rating:\t" + FUR + "/" + totalV_FUR + " = " +  (FUR/totalV_FUR));*/
 		DecimalFormat f = new DecimalFormat("##.00");  
-	
+		out.write("Overall Rating:\t" + (biz_profs.get(i).getStars().intValue()*20) +  " (" +(biz_profs.get(i).getStars().doubleValue())+ ")\n");
 		out.write("Cool Review Rating:\t" + f.format((20*(CRR/totalV_CRR))) + " (" +(CRR/totalV_CRR)+ ")\n");
 		out.write("Useful Review Rating:\t" + f.format((20*(URR/totalV_URR))) + " (" +(URR/totalV_URR)+ ")\n");
 		out.write("Funny Review Rating:\t" + f.format((20*(FRR/totalV_FRR))) + " (" +(FRR/totalV_FRR)+ ")\n");
