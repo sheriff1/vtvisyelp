@@ -13,14 +13,14 @@ vtvisyelp - USE "ughnov16" BRANCH!
 	S---> How many restaurants are near Virginia Tech (can be verified by "stufte" website)         [X]
 		-see above			
 
-	D---> How many categories of restaurants are there near Virginia Tech                           [X]
+	S---> How many categories of restaurants are there near Virginia Tech                           [X]
 		this was done in Extract_Categories.java, the problem now is to identify 
 		which categories we need to consider for our visualization.
 		see list_categories_VT_Food_only.txt to see the list. 
 
- 	D---> How many restaurants are within each these categories										[ ]
+ 	D---> How many restaurants are within each these categories										[X ]
 		see list_categories_VT_Food_only.txt for the list of categories we care to display
-
+		done in "Quantity_categories.java"
 	S---> The earliest and latest dates of reviews of restaurants                                   [ ]
 			-near Virginia Tech
 			-for each category
@@ -30,9 +30,9 @@ vtvisyelp - USE "ughnov16" BRANCH!
 
 [above done by 11-16-12???]
 
-    -Incorporate submit button into menu interface (figure 1) - D                                       [X]
+    S---> Incorporate submit button into menu interface (figure 1) -                                        [X]
 
-    -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [*]
+    S---> the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [*]
   	-Overall and voting metrics scores shown in list_of_scores.txt in ughnov16 branch
 	-scores to be calculated --> "Recent" and user review quantity weighted ratings.
 
