@@ -76,12 +76,12 @@ public class Algorithms
 		System.out.println("Funny User Rating:\t" + FUR + "/" + totalV_FUR + " = " +  (FUR/totalV_FUR));*/
 		DecimalFormat f = new DecimalFormat("##.00");  
 	
-		out.write("Cool Review Rating:\t\t" + f.format((20*(CRR/totalV_CRR))) + " (" +(CRR/totalV_CRR)+ ")\n");
+		out.write("Cool Review Rating:\t" + f.format((20*(CRR/totalV_CRR))) + " (" +(CRR/totalV_CRR)+ ")\n");
 		out.write("Useful Review Rating:\t" + f.format((20*(URR/totalV_URR))) + " (" +(URR/totalV_URR)+ ")\n");
 		out.write("Funny Review Rating:\t" + f.format((20*(FRR/totalV_FRR))) + " (" +(FRR/totalV_FRR)+ ")\n");
-		out.write("Cool User Rating:\t\t" + f.format((20*(CUR/totalV_CUR))) + " (" +(CUR/totalV_CUR)+ ")\n");
-		out.write("Useful User Rating:\t\t" +  f.format((20*(UUR/totalV_UUR))) + " (" +(UUR/totalV_UUR)+ ")\n");
-		out.write("Funny User Rating:\t\t"  +  f.format((20*(FUR/totalV_FUR))) + " (" +(FUR/totalV_FUR)+ ")\n");
+		out.write("Cool User Rating:\t" + f.format((20*(CUR/totalV_CUR))) + " (" +(CUR/totalV_CUR)+ ")\n");
+		out.write("Useful User Rating:\t" +  f.format((20*(UUR/totalV_UUR))) + " (" +(UUR/totalV_UUR)+ ")\n");
+		out.write("Funny User Rating:\t"  +  f.format((20*(FUR/totalV_FUR))) + " (" +(FUR/totalV_FUR)+ ")\n");
 		out.write("--------------------------------------------------\n");
 		}	
 	System.out.println("Count: " + cnt);
