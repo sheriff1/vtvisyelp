@@ -1,4 +1,4 @@
-vtvisyelp
+vtvisyelp - USE "ughnov16" BRANCH!
 =========
 -Parse objects to get the following information - http://wiki.fasterxml.com/JacksonInFiveMinutes
 
@@ -32,8 +32,9 @@ vtvisyelp
 
     -Incorporate submit button into menu interface (figure 1) - D                                       [X]
 
-    -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [ ]
-  	Verification process: take 1 restaurant, find the 4 ratings, print them....eyeball them...
+    -the algorithm for incorporating voting metrics into rating. VERIFY. write the report about it.     [*]
+  	-Overall and voting metrics scores shown in list_of_scores.txt in ughnov16 branch
+	-scores to be calculated --> "Recent" and user review quantity weighted ratings.
 
     -layout the visualization and menu interface                                                        [ ]
 
