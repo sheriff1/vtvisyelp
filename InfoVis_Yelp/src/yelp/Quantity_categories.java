@@ -20,7 +20,7 @@ public class Quantity_categories {
 			
 			Map<String,Integer> arrCatMap = new HashMap<String,Integer>(); //calculate the number of each category
 			ObjectMapper mapper = new ObjectMapper();
-			List<Business_Prof> biz_profs = mapper.readValue(new File("C:\\Users\\Smile\\Documents\\GitHub\\vtvisyelp\\InfoVis_Yelp\\VT_jsons\\VT_business_profiles.json"), 
+			List<Business_Prof> biz_profs = mapper.readValue(new File("/Users/sheriff/Documents/VT/FA12/CS5764-InfoVis/project/vtvisyelp/InfoVis_Yelp/VT_jsons/VT_business_profiles.json"), 
 					new TypeReference<List<Business_Prof>>(){});
 			
 			for(String arr:arrCat){
